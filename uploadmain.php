@@ -194,11 +194,10 @@ name="discussion" enctype="multipart/form-data">
 
 require_once('/popup/popup-contactform.php');
 
-//2. link to the style file contact.css
+
 ?>
 
 <?PHP
-//3. php include contactform-code.php at the end of the page
 
 require_once('/popup/contactform-code.php');
 ?>
@@ -213,18 +212,13 @@ require_once('/popup/contactform-code.php');
 
 <!--  <img src="cartooncloud.jpg" onmouseover="this.src='idea.jpg';" onmouseout="this.src='cartooncloud.jpg'; " />  -->
 
-<!-- ye changable bar jo ki value change aayega..type.check..
-<form oninput="x.value=parseInt(a.value)">
-<pre> 0<input type="range" name="a" value="44">100  <output name="x" for="a b"></output></pre>
-</form>
--->
 <!--  yaha pe draggable things hai....
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <br />
 <p id="drag1" draggable="true" ondragstart="drag(event)">_<img src="/pic/hand.jpg" width="125px" height="100px" draggable="true"  /></p>
 
 
-//this is to popup print page online wala..
+//this is to popup print page online ..
 <img src="submit.jpg" onclick="print_page()" width="55px" height="55px" /><br />
 
 -->

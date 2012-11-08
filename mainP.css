@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body {
+	background-color: #690;
+	background-image: url(brainwheel.jpg);
+}
+
+.body form .submit {
+	background-color: #669;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: inset;
+	border-right-style: groove;
+	border-bottom-style: outset;
+	border-left-style: groove;
+	border-top-color: #69F;
+	border-right-color: #69F;
+	border-bottom-color: #69F;
+	border-left-color: #69F;
+	height: 32px;
+	width: 150px;
+}
+.body .bottom {
+	position: absolute;
+	width: auto;
+	top: 450px;
+}
+.body .uploadbox {
+	position: absolute;
+	left: 400px;
+	top: 250px;
+}
+#googlesearch {
+	position: absolute;
+	left: 650px;
+}
+.body #dialog {
+	display:    none;
+	left:       450px;
+	top:        200px;
+	width:      300px;
+	height:     325px;
+	position:   absolute;
+	z-index:    100;
+	padding:    2px;
+	font:       10pt tahoma;
+	border:     1px solid gray;
+	background-color:#FFA;
+}
+.body form .uploadfile {
+	background-color: #69F;
+	border-top-width: 1.2px;
+	border-right-width: 1.2px;
+	border-bottom-width: 1.2px;
+	border-left-width: 1.2px;
+	border-top-style: inset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: inset;
+	border-top-color: #699;
+	border-right-color: #699;
+	border-bottom-color: #699;
+	border-left-color: #699;
+	height: 30px;
+	width: 320px;
+}
+
+.body #popUpDiv 
+{
+	position:absolute;
+	background:url(pop-back.jpg) no-repeat;
+	width:400px;
+	height:460px;
+	border:5px solid #000;
+	z-index: 9002;
+	left: 500px;
+	top: 350px;
+}
+
+.body .popupClass1 { width:100px;height:300px;background-color:red; }
+.body .popupClass2 { width:300px;height:100px;background-color:green; }
+.body #cover {
+	display:        none;
+	position:       absolute;
+	left:           0px;
+	top:            0px;
+	width:          100%;
+	height:         100%;
+	filter:         alpha(Opacity = 50);
+	opacity:        0.5;
+	-moz-opacity:   0.5;
+	-khtml-opacity: 0.5;
+	background-color: Gray;
+}

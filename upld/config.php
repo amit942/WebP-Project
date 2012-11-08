@@ -1,11 +1,5 @@
 <?php
 /////////////////////////////////////////////////////////
-//Google Hack Honeypot v1.1
-//Configuration File
-//http://ghh.sourceforge.net - many thanks to SourceForge
-/////////////////////////////////////////////////////////
-
-/////////////////////////////////////////////////////////
 //Copyright (C) 2005 GHH Project
 //
 //This program is free software; you can redistribute it and/or modify 
@@ -17,22 +11,9 @@
 //but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
 //or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
 //for more details.
-//
-//You should have received a copy of the GNU General Public License along 
-//with this program; if not, write to the 
-//Free Software Foundation, Inc., 
-//59 Temple Place, Suite 330, 
-//Boston, MA 02111-1307 USA
-////////////////////////////////////////////////////////
 
 ////////////////////////////////////////////////////////
-//Begin Global Configuration Section 
-////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////
-//Logging (CSV or MySQL?)
-////////////////////////////////////////////////////////
-//CSV, MySQL, or xml-rpc?
 $LogType = 'xmlrpc'; //Enter 'CSV', 'xmlrpc', or 'MySQL', then complete the relevant configuration section below
 
 	//CSV Config
@@ -58,13 +39,7 @@ $LogType = 'xmlrpc'; //Enter 'CSV', 'xmlrpc', or 'MySQL', then complete the rele
 	$XMLproxyHost = ""; //the host that you need to go through for the proxy
 	$XMLproxyPort = 0; // the port for your proxy
 
-////////////////////////////////////////////////////////
-//End Global Configuration Section
-////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////
-//Begin Housekeeping Section
-////////////////////////////////////////////////////////
 $Signature = array();
 $DateTime = date("m-d-Y h:i:s A");
 $Attack = "";
@@ -72,14 +47,7 @@ $HoneypotName = "";
 $Log = "";
 error_reporting(0);
 $downloadedFile = null;
-////////////////////////////////////////////////////////
-//End Housekeeping Section
-////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////
-//End Housekeeping Section
-////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////
 //Begin Basic Security Section (This makes the configuration file a honeypot itself to prevent fingerprinting, no transparent links to this file please.)
 ////////////////////////////////////////////////////////
 //Checks for $RegisterGlobals so $Honeypot cannot be bypassed
